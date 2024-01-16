@@ -14,7 +14,7 @@ You are tasked with creating a React Native mobile application that includes a l
 2. **Home Screen:**
    - Implement a home screen with a header displaying the user's information.
    - Include a date and time picker on the home screen.
-   - Create a custom calendar using Moment.js to display a 6-month calendar.
+   - Create a custom calendar using Moment.js to display a 6-month calendar. You can refer to Rydeu App for UI desing.
    - Allow users to select a date and time using your custom calendar and display the selected date and time on the screen.
    - Implement a logout button on the home screen that, when pressed, logs the user out and redirects them to the login screen.
 
