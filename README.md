@@ -25,6 +25,13 @@ You are tasked with creating a React Native mobile application that includes a l
    - Choose and implement a state management library (MobX, Recoil, Redux) to manage the application's state effectively.
    - Demonstrate proper usage of the chosen state management library throughout the app.
 
+5. **Login Api:**
+   curl --location 'https://new-api-staging.rydeu.com/login' \ --header 'Content-Type: application/json' \ --data-raw '{
+       "email": "rydeu@email10p.org",
+       "password": "123456",
+       "type": "customer"
+   }' 
+
 ### Technical Considerations:
 
 1. Use best practices for React Native development.
