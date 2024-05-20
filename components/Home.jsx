@@ -11,7 +11,6 @@ const Home = ({ navigation }) => {
 
   useEffect(() => {
     if (user) {
-      console.log(user.account.firstName, user.account.lastName);
       navigation.setOptions({
         title: `${user.account.firstName} ${user.account.lastName}`,
       });

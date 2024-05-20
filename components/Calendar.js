@@ -18,7 +18,6 @@ const Calendar = ({ selectedDate, setSelectedDate }) => {
   );
 
   const handleDatePress = (date) => {
-    console.log(date);
     setSelectedDate(new Date(date));
     setDatePickerVisibility(true);
   };
