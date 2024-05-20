@@ -1,1 +1,1 @@
-export const BASE_URL = "https://openlibrary.org/search/authors.json"
+export const BASE_URL = "https://new-api-staging.rydeu.com"
